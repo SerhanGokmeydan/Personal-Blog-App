@@ -1,0 +1,40 @@
+#edit-blog-form {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#edit-blog-form textarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+#edit-blog-form textarea:focus {
+  outline: none;
+}
+
+#edit-blog-form button {
+  width: 49%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#edit-blog-form label {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+#edit-blog-form .btn-group{
+  display: flex;
+  justify-content: space-between;
+}

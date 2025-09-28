@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs') %>
+<div id="list-of-blogs">
+  <h1>Blogs</h1>
+  <ul id="blog-list">
+    <% for( let blog of blogs) { %>
+    <li class="blog-list-item">
+      <a href="/blog/<%= blog.id  %>" type="submit"> <%= blog.title %> </a>
+    </li>
+    <% } %>
+  </ul>
+</div>
+
+<%- include('partials/footer.ejs') %>

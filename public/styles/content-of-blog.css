@@ -1,0 +1,11 @@
+#content-of-blog{
+  white-space: pre-line;
+  flex: 1;
+  word-wrap: break-word;
+} 
+#content-of-blog h1{
+  font-size: 2.5rem;
+}
+#content-of-blog p{
+  font-size: 1.2rem;
+}

@@ -1,0 +1,23 @@
+*{
+  color: #f8e7f6;
+}
+
+body{
+  background-color: #333;
+}
+
+header nav {
+  background-color: #5e175f;
+}
+
+#create-blog-form input{
+  background-color: #666;
+}
+
+#create-blog-form textarea{
+  background-color: #666;
+}
+
+#create-blog-form button{
+  background-color: #5e175f;
+}

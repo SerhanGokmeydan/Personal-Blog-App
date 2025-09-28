@@ -1,0 +1,22 @@
+#list-of-blogs{
+  flex: 1;
+}
+#blog-list .blog-list-item{
+  position: relative;
+  left: 20px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+#blog-list .blog-list-item a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 100ms;
+}
+#blog-list .blog-list-item a:hover{
+  font-size: 1.5rem;
+}
+#list-of-blogs h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
